@@ -17,7 +17,7 @@
 </body>
 
 <?php
-
+//Test push
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (!isset($_POST["pseudo"]) || !isset($_POST["pwd"])) {
         die("Veuillez renseigner vos informations");
